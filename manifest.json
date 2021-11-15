@@ -1,0 +1,19 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Chrome tabs",
+  "description": "Extension Description",
+  "developer_name": "Till Schulte",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "keyword",
+      "type": "keyword",
+      "name": "Switch Tabs",
+      "description": "Switch tab in chrome",
+      "default_value": "t"
+    }
+  ]
+}
